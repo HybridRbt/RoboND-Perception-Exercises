@@ -21,6 +21,7 @@ def get_normals(cloud):
 
 
 if __name__ == '__main__':
+    print "entered capture_feature.py"
     rospy.init_node('capture_node')
 
     models = [\
